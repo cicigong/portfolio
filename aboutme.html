@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me</title>
+    <link rel="stylesheet" href="aboutme.css">
+    <script src="aboutme.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+            <div class="nav-bar">
+                    <a href="index.html"><div class="name">
+                        GONG YUQIONG
+                    </div></a>
+                    <ul>
+                        <a href="https://drive.google.com/file/d/1sfNkQRI2b8DDcZxclXMMvoFSgKM98Vjy/view?usp=sharing"><li id="cv">CV</li></a>
+                        <a href="aboutme.html"><li id="aboutme">ABOUT ME</li></a>
+                      
+                    </ul>
+            </div>
+      </div>
+      <div class="body">
+          <!-- Container for the image gallery -->     
+            
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/bookmark.jpg"  onclick="currentSlide(1)" alt="Bookmark">
+                    </div>
+                    <div class="column"> 
+                        <img class="demo cursor" src="images/wave.jpg"  onclick="currentSlide(2)" alt="Adobe Illustrator">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/avocado.jpg" onclick="currentSlide(3)" alt="Procreate">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/fei.jpg"  onclick="currentSlide(4)" alt="Avatar">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/paint.jpg"  onclick="currentSlide(5)" alt="Paint">
+                    </div> 
+                    <div class="column">
+                        <img class="demo cursor" src="images/toast.jpg" onclick="currentSlide(6)" alt="French Toast">
+                    </div>
+                    <div class="column">
+                            <img class="demo cursor" src="images/interior2.jpg" onclick="currentSlide(7)" alt="Deco">
+                    </div>
+                    <div class="column">
+                            <img class="demo cursor" src="images/cookie1.jpg" onclick="currentSlide(8)" alt="Cookie">
+                    </div>
+                    <div class="column">
+                            <img class="demo cursor" src="images/cancer.jpg" onclick="currentSlide(9)" alt="Couple cancer">
+                    </div>
+                    <div class="column">
+                            <img class="demo cursor" src="images/mashmallow2.jpg" onclick="currentSlide(10)" alt="Mashmallow">
+                    </div><div class="column">
+                            <img class="demo cursor" src="images/barcelona.jpg" onclick="currentSlide(11)" alt="Barcelona">
+                    </div>
+                
+                </div>
+
+                <div class="caption-container">
+                     <p id="caption">Live Love Life</p>
+                </div>
+                <!-- Image text -->
+                <!-- <div class="caption-container">
+                        <p id="caption">Live Love Life</p>
+                </div> -->
+                 <!-- Full-width images with number text -->
+                 <div class="left">
+                        <div class="mySlides" id="slide1">
+                        <div class="numbertext">1 / 11</div>
+                            <img src="images/bookmark.jpg" width="600px" height="510px">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">2 / 11</div>
+                            <img src="images/wave.jpg" width="600px" height="510px">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">3 / 11</div>
+                            <img src="images/avocado.jpg" width="600px" height="510px">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">4 / 11</div>
+                            <img src="images/fei.jpg" width="600px" height="510px">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">5 / 11</div>
+                            <img src="images/paint.jpg" width="600px" height="510px">
+                        </div>
+                    
+                        <div class="mySlides">
+                        <div class="numbertext">6 / 11</div>
+                            <img src="images/toast.jpg" width="600px" height="510px">
+                        </div>
+
+                        <div class="mySlides">
+                                <div class="numbertext">7 / 11</div>
+                                    <img src="images/interior2.jpg" width="600px" height="510px">
+                         </div>
+
+                         <div class="mySlides">
+                                <div class="numbertext">8 / 11</div>
+                                    <img src="images/cookie1.jpg" width="600px" height="510px">
+                         </div>
+
+                         <div class="mySlides">
+                                <div class="numbertext">9 / 11</div>
+                                    <img src="images/cancer.jpg" width="600px" height="510px">
+                         </div>
+
+                         <div class="mySlides">
+                                <div class="numbertext">10 / 11</div>
+                                    <img src="images/mashmallow2.jpg" width="600px" height="510px">
+                         </div>
+
+                         <div class="mySlides">
+                                <div class="numbertext">11 / 11</div>
+                                    <img src="images/barcelona.jpg" width="600px" height="510px">
+                         </div>
+
+                    </div>
+                    <div class="right">
+                        <ul>
+                         <li>Love to <b>paint</b> and try <b>procreate</b> sometimes</li>
+                         <li>Love to make <b>desserts</b> and do <b>baking</b></li>
+                         <li>Love to watch the interior design videos and <b>decorate</b> my room</li>
+                         <li>Love to make <b>handcrafts</b> sometimes</li>
+                         <li>Love to do <b>fitness</b> exercises regularly</li>
+                         <li>Love to listen soft <b>music</b> in my spare time</li>
+                         <li>Love to study new skills such as <b>PS</b> and <b>Adobe Illustrator</b> skills</li>
+                         <li>Love to <b>travel</b></li>
+                        </ul>
+                    </div>
+                    
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+
+      </div>  
+    </div>
+</body>
+</html>
