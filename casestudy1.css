@@ -32,7 +32,22 @@
 	
 }
 
-.nav-bar ul {
+.nav-bar ul a li{
+	float: left;
+	padding-left: 20px;
+	line-height: 33px;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+
+} 
+
+.nav-bar ul{
+    padding-left: 1185px;
+}
+
+/* .nav-bar ul {
 	float: right;
 	list-style: none;
 	display: inline-block;
@@ -44,7 +59,7 @@
 	line-height: 33px;
     font-size: 18px;
 
-}
+} */
 
 .nav-bar ul li:hover {
 	color: yellow;

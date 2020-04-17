@@ -30,21 +30,39 @@
 	
 }
 
-.nav-bar ul {
-	float: right;
-	list-style: none;
-	display: inline-block;
-	padding-right: 80px;
-}
-.nav-bar ul li{
+.nav-bar ul a li{
 	float: left;
 	padding-left: 30px;
 	line-height: 60px;
     font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
 
+} 
+
+.nav-bar ul{
+    padding-left: 1180px;
 }
 
-.nav-bar ul li:hover {
+/* .nav-bar ul a li{
+    float: right;
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    padding-right: 80px;
+} */
+
+/* 
+.nav-bar ul a li{
+	float: left;
+	padding-left: 15px;
+	line-height: 60px;
+    font-size: 18px;
+
+} */
+
+.nav-bar ul a li:hover {
 	color: yellow;
 }
 
