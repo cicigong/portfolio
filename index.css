@@ -124,7 +124,7 @@ p{
 }
 
 .right .case .text {
-
+  
     width: 50%;
     display: inline;
     float: right;
@@ -142,11 +142,18 @@ p{
 .pic .content {
     
     position: absolute; /* Position the background text */
-    bottom: -45px; /* At the bottom. Use top:0 to append it to the top */
+    bottom:-45px;
+    right: 0px;
+    left:55px;
+
+    /* bottom: -45px;  */
+    /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 257px; /* Full width */
+    /* width: 257px; */
+     /* Full width */
+    /* width: 80%; */
     padding: 8px; 
     /* Some padding */
     
